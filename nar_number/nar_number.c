@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<math.h>
-#include "./nar_number.c.h"
+#include "./nar_number.h"
 
 //
 // Created by 陈海楠 on 2022/11/1.
