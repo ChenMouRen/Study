@@ -4,10 +4,9 @@
 
 #ifndef STUDY_MULTITABLES_H
 #define STUDY_MULTITABLES_H
-
-#endif //STUDY_MULTITABLES_H
-
 /**
  * 打印99乘法表
  */
 void print_tables();
+#endif //STUDY_MULTITABLES_H
+

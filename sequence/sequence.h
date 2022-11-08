@@ -5,6 +5,7 @@
 #ifndef STUDY_SEQUENCE_H
 #define STUDY_SEQUENCE_H
 
-#endif //STUDY_SEQUENCE_H
-
 long calculate_sequence(int);
+
+long calculate_sequence_2(unsigned int);
+#endif //STUDY_SEQUENCE_H

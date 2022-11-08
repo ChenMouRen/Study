@@ -17,3 +17,10 @@ long calculate_sequence(int index) {
     }
     return result;
 }
+
+long calculate_sequence_2(unsigned int index) {
+    if (index == 1 || index == 2) {
+        return 1;
+    }
+    return calculate_sequence_2(index - 1) + calculate_sequence_2(index - 2);
+}
