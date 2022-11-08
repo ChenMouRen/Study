@@ -1,2 +1,10 @@
 # 项目排除路径
 /cmake-build-debug/
+/.idea
+/cmake-build-debug-mingw
+/.vs
+/cmake-build-debug-vs
+/cmake-build-default-mingw
+/cmake-build-run-vs
+/out/build/x64-Debug
+/CMakeSettings.json
