@@ -1,24 +1,27 @@
-#include <stdio.h>
-#include <stddef.h>
-#include "nar_number/nar_number.h"
-#include "tables/multi_tables.h"
-#include "sequence/sequence.h"
-#include "music/decode.h"
-#include "tower/han_luo_tower.h"
 #include "define_func/define_func.h"
+//#include "array/array.c"
 
-// Èç¹ûWindows¾Íµ¼ÈëÀ´ÉèÖÃ¿ØÖÆÌ¨±àÂë
+
+// å¦‚æœæ˜¯windowså°±å¼•å…¥é¿å…ä¹±ç 
 #ifdef _WIN32
 #include <windows.h>
 #endif
 
-
+//void method_args(int x, ...) {
+//    va_list args;
+//    va_start(args, x);
+//    int temp;
+//    while ((temp = va_arg(args, int)) != END) {
+//        printf("value of args: %d\n", temp);
+//    }
+//    va_end(args);
+//}
 
 int main() {
 #ifdef _WIN32
-	// Èç¹ûWindows¾ÍÉèÖÃ¿ØÖÆÌ¨±àÂë
-	SetConsoleOutputCP(65001);
-#endif 
-	findAllNumber(1000);
-	return 0;
+    // å¦‚æœæ˜¯windowså°±è®¾ç½®æ§åˆ¶å°ä¸ºUtf8ç¼–ç 
+    SetConsoleOutputCP(65001);
+#endif
+//    normal_sort();
+    return 0;
 }
