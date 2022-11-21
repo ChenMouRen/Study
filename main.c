@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "define_func/define_func.h"
 //#include "array/array.c"
 
@@ -22,6 +23,10 @@ int main() {
     // 如果是windows就设置控制台为Utf8编码
     SetConsoleOutputCP(65001);
 #endif
-//    normal_sort();
+//    int array[] = {1, 3, 4, 5, 6};
+//    int *p = array;
+//    printf("%d\n", *p);
+//    printf("%d\n", *(p + 2));
+    int *point = malloc(sizeof(int) * 16);
     return 0;
 }
