@@ -7,6 +7,6 @@ void printfln(const char *value, ...) {
     va_list args;
     va_start(args,value);
     vprintf(value, args);
-//    printf("\n");
+    printf("%s\n",value);
     va_end(args);
 }

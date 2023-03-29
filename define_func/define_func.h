@@ -11,7 +11,11 @@
 
 void printfln(const char *value, ...);
 
-#define PRINTFLN(value, ...) printfln(value"\n",##__VA_ARGS__)
+
+#define PRINTLNF(format, ...) printf(format"\n", ##__VA_ARGS__)
+
+#define println(format, ...) printf(format"\n", ##__VA_ARGS__)
+
 
 #define DEBUG_PRINT_CHAR(value) printfln("file("__FILE__":%d) %s"#value" is %s\n",__LINE__,__FUNCTION__,value)
 
